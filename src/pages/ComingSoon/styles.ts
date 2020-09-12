@@ -13,6 +13,6 @@ export const Wrapper = styled.SafeAreaView`
 
 export const Heading = styled.Text`
   color: ${colors.purple};
-  font-family: roboto_500;
+  font-family: Roboto-Regular;
   font-size: 30px;
 `;
