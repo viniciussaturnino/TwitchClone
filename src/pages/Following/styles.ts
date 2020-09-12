@@ -1,7 +1,13 @@
 import styled from 'styled-components/native';
 import colors from '../../styles/colors';
 
-export const Container = styled.View`
+export const Wrapper = styled.SafeAreaView`
+  background: ${colors.primary};
   flex: 1;
-  background: ${colors.purple};
 `;
+
+export const Container = styled.View`
+  padding-left: 14px;
+`;
+
+export const Main = styled.View``;
