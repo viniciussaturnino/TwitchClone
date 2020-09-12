@@ -1,8 +1,18 @@
 /* eslint-disable import/no-unresolved */
+// import { Platform } from 'react-native';
 import styled from 'styled-components/native';
+
 import colors from '../../styles/colors';
 
-export const Container = styled.View`
+export const Wrapper = styled.SafeAreaView`
   flex: 1;
   background: ${colors.primary};
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Heading = styled.Text`
+  color: ${colors.purple};
+  font-family: roboto_500;
+  font-size: 30px;
 `;
