@@ -3,10 +3,11 @@
 /* eslint-disable no-shadow */
 import React from 'react';
 import { FlatList, View } from 'react-native';
-// import { Text } from 'react-native';
+
 import Header from '../../components/Header';
 import Heading from '../../components/Heading';
 import Title from '../../components/Title';
+import CategoryList from '../../components/CategoryList';
 
 import { Wrapper, Container, Main } from './styles';
 
@@ -29,7 +30,7 @@ const Following: React.FC = () => {
         render: () => <Title>Followed Categories</Title>,
         isTitle: true,
       },
-      { key: 'C1', render: () => <View /> },
+      { key: 'C1', render: () => <CategoryList /> },
 
       {
         key: 'LIVE_CHANNELS',
