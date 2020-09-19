@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable no-shadow */
 import React from 'react';
-import { FlatList, View } from 'react-native';
+import { FlatList } from 'react-native';
 
 import Header from '../../components/Header';
 import Heading from '../../components/Heading';
