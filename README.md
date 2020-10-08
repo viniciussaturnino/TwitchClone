@@ -7,6 +7,7 @@
 
 <h1 align="center">
   <img src="https://img.shields.io/static/v1?label=yarn&message=1.22.5&color=%3CCOLOR%3E&style=for-the-badge&logo=ghost"/>
+  <img src="https://img.shields.io/static/v1?label=react-native&message=0.63.2&color=9159c1&style=for-the-badge&logo=ghost"/>
 </h1>
 
 <p align="center">
